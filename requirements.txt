@@ -1,0 +1,7 @@
+pandas==3.0.2
+numpy==2.2.5
+yfinance==1.7.0
+matplotlib==3.10.7
+requests==2.33.1
+ipykernel==7.3.0
+jupyter

@@ -1,0 +1,7 @@
+# downloaded inputs: iShares and Yahoo data are for personal use only
+data/
+
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+.claude/
