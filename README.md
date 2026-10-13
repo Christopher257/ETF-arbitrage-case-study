@@ -134,4 +134,4 @@ jupyter notebook etf_arbitrage.ipynb
 
 The first run downloads everything into `data/`, which takes about 6 minutes because the stock prices are rate limited. Later runs read from `data/`. That folder is not in the repository, because the iShares and Yahoo data is for personal use only, so a fresh clone gets the latest data and slightly different numbers. Set `REFRESH = True` in the first code cell to download again.
 
-`iwv_estimates.csv` is the live log of my own NAV estimates, one row per day the notebook is run after a close. It cannot be downloaded again, so it is kept in the repository.
+`iwv_estimates.csv` is the live log of my own NAV estimates, one row per day the notebook is run after a close. It cannot be downloaded again, so it is kept in the repository. To add the newest day to the log, set `UPDATE_LOG = True` and run the notebook after the US close.
